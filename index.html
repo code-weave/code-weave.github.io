@@ -1,68 +1,123 @@
-<!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.80.0">
-    <title>Cover Template · Bootstrap v5.0</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
-
-    
-
-    <!-- Bootstrap core CSS -->
-<link href="../bootstrap-5.0.0-beta2-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="./cover.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="px-3">
-    <h1>Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-    </p>
-  </main>
-
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-  </footer>
-</div>
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="-1"><style type="text/css">* {
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+.container {
+  position: relative;
+  
+}
+p {
+  font-size: 16px; 
+  font-style: normal; 
+  font-weight: 400;
+}
+.left {
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 40px 80px 80px 40px;
+  background-color: #444b4a;
+  height: 280;
+  width: 400px;
+}
+/* 051145 */
+.right {
+  display: inline-block;
+  color: #051145;
+  padding: 40px 80px 80px 40px;
+  background-color: white;
+  height: 280px;
+  width: 400;
+}
+.left-para {
+	animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-duration: 2;
+}
 
 
-    
-  </body>
-</html>
+@keyframes slide-top {
+  0% {
+            transform: translateY(1000px);
+  }
+  100% {
+
+            transform: translateY(-0); 
+  }      
+}
+
+.heading {
+  
+	animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-duration: 2;
+}
+
+
+@keyframes slide-top {
+  0% {
+            transform: translateY(1000px);
+  }
+  100% {
+
+            transform: translateY(-0); 
+  }      
+}
+
+.heading {
+  
+	animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-duration: 2;
+}
+
+
+@keyframes slide-top {
+  0% {
+            transform: translateY(1000px);
+  }
+  100% {
+
+            transform: translateY(-0); 
+  }      
+}
+
+.heading {
+  animation: slide-down 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-duration: 2;
+}
+
+
+@keyframes slide-down {
+  0% {
+            transform: translateY(-1000px);  
+  }
+  100% {
+
+            transform: translateY(-100); 
+}
+  </style>
+
+
+
+    <title>Assignment</title>
+</head>
+
+<body>
+    <container>
+        <div class="left">
+            <h2 class="heading">Is there Risk?</h2>
+            <p class="left-para">In the world of ecommerce, the landscape is always changing with new rules, laws and regulations. As a member of the 117 Degree’s, you are fully protected from having to stay on top of these changes. We do this to protect you the member, the advertiser and of course all of our businesses. Chargeback mitigation is just another way we set ourselves apart from others and bring value to you. We are efficient managers and regulate the monthly charges by managing overdrafts and chargebacks for the Advertisers. We are your E-com partners in the management!</p>
+        </div>
+        <div class="right">
+          <h2 class="heading">Why go with us?</h2>
+            <ol class="left-para">
+                <li><span style="font-size: 16px; font-style: normal; font-weight: 400;">117 Degrees</span> creates, leases, and manages Members as LLCs</li>
+                <li>Our professional affiliation with Infinity Global Tax Solutions ensures compliance and reconciliation of your account annually.</li>
+                <li>Retailers accept all tax liability, not the Member</li>
+                <li><span style="font-size: 16px; font-style: normal; font-weight: 400;">117 Degrees</span> assumes all financial risk for Members</li>
+                <li><span style="font-size: 16px; font-style: normal; font-weight: 400;">117 Degrees </span>offers referral/affiliate bonuses to Members</li>
+                <li>Provide complete Chargeback mitigation for each Members account to benefit the Advertiser and the Member</li>
+            </ol>
+        </div>
+    </container>
+
+
+<script>// Write JavaScript here </script></body>
